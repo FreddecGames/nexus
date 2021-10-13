@@ -80,7 +80,7 @@
 										<span class="badge bg-secondary">Original</span>
 									</div>
 									<div class="col-auto">
-										<span class="badge bg-secondary">No started</span>
+										<span class="badge bg-secondary">Not started</span>
 									</div>
 								</div>
 							</div>
@@ -102,7 +102,7 @@
 										<span class="badge bg-secondary">Remake</span>
 									</div>
 									<div class="col-auto">
-										<span class="badge bg-secondary">No started</span>
+										<span class="badge bg-secondary">Not started</span>
 									</div>
 								</div>
 							</div>
@@ -124,7 +124,7 @@
 										<span class="badge bg-secondary">Remake</span>
 									</div>
 									<div class="col-auto">
-										<span class="badge bg-secondary">No started</span>
+										<span class="badge bg-secondary">Not started</span>
 									</div>
 								</div>
 							</div>
