@@ -60,7 +60,7 @@
 								</div>
 							</div>
 							<div class="col-auto">
-								<a href="https://ngsc.freddecgames.com" class="btn stretched-link" target="_blank">Play</a>
+								<a href="https://ngspacecompany.exileng.com" class="btn stretched-link" target="_blank">Play</a>
 							</div>
 						</div>
 					</div>
@@ -154,7 +154,7 @@
 						Games
 					</div>
 					<div class="mb-2 ">
-						<a href="https://ngsc.freddecgames.com" class="small text-muted text-decoration-none" target="_blank">NG Space Company</a>
+						<a href="https://ngspacecompany.exileng.com" class="small text-muted text-decoration-none" target="_blank">NG Space Company</a>
 					</div>
 				</div>
 				<div class="col-lg-3">
