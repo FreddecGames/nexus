@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html {
+    height:100%;
+}
+
 body {
-	padding-top: 50px;
+	height:100%; padding-top: 50px;
 	font-family: 'Roboto', sans-serif; color: #adbac7; font-size: .85rem;
 	background-color: #22272e;
+}
+
+#app {
+    height:100%;
+    display: flex; flex-direction:column;
 }
 
 .navbar {
@@ -17,6 +26,10 @@ body {
 
 #banner {
 	background: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)), url('img/bk.jpg'); background-size: cover; background-position: center;
+}
+
+p {
+    margin-bottom: .5rem;
 }
 
 .card {

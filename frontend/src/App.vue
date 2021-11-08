@@ -39,7 +39,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container py-5">
+	<div class="col container py-5">
 		<div class="row g-3 justify-content-center">
 			<div class="col-12 col-md-6 col-lg-3">
 				<div class="card h-100">
@@ -48,21 +48,24 @@
 					</div>
 					<div class="card-body">
 						<p class="card-text">Incremental space game about resource mining, interstellar exploration and system conquest</p>
-						<div class="row gx-2 align-items-center justify-content-between">
-							<div class="col-auto">
-								<div class="row gx-1 align-items-center">
-									<div class="col-auto">
-										<span class="badge bg-secondary">Remake</span>
-									</div>
-									<div class="col-auto">
-										<span class="badge bg-success">Released</span>
-									</div>
-								</div>
+                        <div class="row gx-1 align-items-center mb-3">
+                            <div class="col-auto">
+                                <span class="badge bg-secondary">Remake</span>
+                            </div>
+                            <div class="col-auto">
+                                <span class="badge bg-success">Released</span>
+                            </div>
+                        </div>
+                        <div class="row gx-1 align-items-center justify-content-end">
+							<div class="col-auto p-0">
+                                <a href="https://play.google.com/store/apps/details?id=com.freddecgames.ngsc" target="_blank">
+                                    <img :src="require(`./assets/img/playstore.png`)" alt="Get it on Google Play" width="128">
+                                </a>
 							</div>
 							<div class="col-auto">
-								<a href="https://ngspacecompany.exileng.com" class="btn stretched-link" target="_blank">Play</a>
+								<a href="https://ngsc.freddecgames.com" class="btn" target="_blank">Web</a>
 							</div>
-						</div>
+                        </div>
 					</div>
 				</div>
 			</div>
@@ -73,7 +76,7 @@
 					</div>
 					<div class="card-body">
 						<p class="card-text">Incremental game about fighting enemies with space ships to free galaxies</p>
-						<div class="row gx-2 align-items-center justify-content-between">
+						<div class="row gx-1 align-items-center mb-3">
 							<div class="col-auto">
 								<div class="row gx-1 align-items-center">
 									<div class="col-auto">
@@ -95,7 +98,7 @@
 					</div>
 					<div class="card-body">
 						<p class="card-text">Multi-player incremental game where you're fighting against the others to be the Master</p>
-						<div class="row gx-2 align-items-center justify-content-between">
+						<div class="row gx-1 align-items-center mb-3">
 							<div class="col-auto">
 								<div class="row gx-1 align-items-center">
 									<div class="col-auto">
@@ -117,7 +120,7 @@
 					</div>
 					<div class="card-body">
 						<p class="card-text">Mining, ship building, fleet fighting to conquest all the galaxies. Be careful, you're not alone!</p>
-						<div class="row gx-2 align-items-center justify-content-between">
+						<div class="row gx-1 align-items-center mb-3">
 							<div class="col-auto">
 								<div class="row gx-1 align-items-center">
 									<div class="col-auto">
@@ -154,7 +157,7 @@
 						Games
 					</div>
 					<div class="mb-2 ">
-						<a href="https://ngspacecompany.exileng.com" class="small text-muted text-decoration-none" target="_blank">NG Space Company</a>
+						<a href="https://ngsc.freddecgames.com" class="small text-muted text-decoration-none" target="_blank">NG Space Company</a>
 					</div>
 				</div>
 				<div class="col-lg-3">
