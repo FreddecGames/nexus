@@ -46,8 +46,8 @@
 					<div class="card-header text-light">
 						<span class="fs-6">NG Space Company</span>
 					</div>
-					<div class="card-body">
-						<p class="card-text">Incremental space game about resource mining, interstellar exploration and system conquest</p>
+					<div class="card-body d-flex flex-column">
+						<p class="flex-fill card-text">Incremental space game about resource mining, interstellar exploration and system conquest</p>
                         <div class="row gx-1 align-items-center mb-3">
                             <div class="col-auto">
                                 <span class="badge bg-secondary">Remake</span>
@@ -57,9 +57,10 @@
                             </div>
                         </div>
                         <div class="row gx-1 align-items-center justify-content-end">
-							<div class="col-auto p-0">
-                                <a href="https://play.google.com/store/apps/details?id=com.freddecgames.ngsc" target="_blank">
-                                    <img :src="require(`./assets/img/playstore.png`)" alt="Get it on Google Play" width="128">
+							<div class="col-auto">
+                                <a href="https://play.google.com/store/apps/details?id=com.freddecgames.ngsc" class="btn" target="_blank">
+                                    <img :src="require(`./assets/img/google_play.png`)" alt="Get it on Google Play" height="16">
+                                    Google Play
                                 </a>
 							</div>
 							<div class="col-auto">
@@ -74,8 +75,8 @@
 					<div class="card-header text-light">
 						<span class="fs-6">NG Galaxies</span>
 					</div>
-					<div class="card-body">
-						<p class="card-text">Incremental game about fighting enemies with space ships to free galaxies</p>
+					<div class="card-body d-flex flex-column">
+						<p class="flex-fill card-text">Clicker/Incremental game about fighting Bone Hunter fleets with space ships to free our galaxies</p>
 						<div class="row gx-1 align-items-center mb-3">
 							<div class="col-auto">
 								<div class="row gx-1 align-items-center">
@@ -83,11 +84,16 @@
 										<span class="badge bg-secondary">Original</span>
 									</div>
 									<div class="col-auto">
-										<span class="badge bg-secondary">Not started</span>
+										<span class="badge bg-warning">Beta Testing</span>
 									</div>
 								</div>
 							</div>
 						</div>
+                        <div class="row gx-1 align-items-center justify-content-end">
+							<div class="col-auto">
+								<a href="https://nggalaxies.freddecgames.com" class="btn" target="_blank">Web</a>
+							</div>
+                        </div>
 					</div>
 				</div>
 			</div>
@@ -96,8 +102,8 @@
 					<div class="card-header text-light">
 						<span class="fs-6">NG Exile</span>
 					</div>
-					<div class="card-body">
-						<p class="card-text">Multi-player incremental game where you're fighting against the others to be the Master</p>
+					<div class="card-body d-flex flex-column">
+						<p class="flex-fill card-text">Multi-player incremental game where you're fighting against the others to be the Master</p>
 						<div class="row gx-1 align-items-center mb-3">
 							<div class="col-auto">
 								<div class="row gx-1 align-items-center">
@@ -110,6 +116,11 @@
 								</div>
 							</div>
 						</div>
+                        <div class="row gx-1 align-items-center justify-content-end">
+							<div class="col-auto">
+								<a href="/" class="btn disabled" target="_blank">Web</a>
+							</div>
+                        </div>
 					</div>
 				</div>
 			</div>
@@ -118,8 +129,8 @@
 					<div class="card-header text-light">
 						<span class="fs-6">NG Heart of Galaxy</span>
 					</div>
-					<div class="card-body">
-						<p class="card-text">Mining, ship building, fleet fighting to conquest all the galaxies. Be careful, you're not alone!</p>
+					<div class="card-body d-flex flex-column">
+						<p class="flex-fill card-text">Mining, ship building, fleet fighting to conquest all the galaxies. Be careful, you're not alone!</p>
 						<div class="row gx-1 align-items-center mb-3">
 							<div class="col-auto">
 								<div class="row gx-1 align-items-center">
@@ -132,6 +143,11 @@
 								</div>
 							</div>
 						</div>
+                        <div class="row gx-1 align-items-center justify-content-end">
+							<div class="col-auto">
+								<a href="/" class="btn disabled" target="_blank">Web</a>
+							</div>
+                        </div>
 					</div>
 				</div>
 			</div>
@@ -158,6 +174,9 @@
 					</div>
 					<div class="mb-2 ">
 						<a href="https://ngsc.freddecgames.com" class="small text-muted text-decoration-none" target="_blank">NG Space Company</a>
+					</div>
+					<div class="mb-2 ">
+						<a href="https://nggalaxies.freddecgames.com" class="small text-muted text-decoration-none" target="_blank">NG Galaxies</a>
 					</div>
 				</div>
 				<div class="col-lg-3">
